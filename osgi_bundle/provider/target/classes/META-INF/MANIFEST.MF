@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1638393772552
+Build-Jdk: 11.0.13
+Built-By: yang
+Bundle-Blueprint: OSGI-INF/blueprint/blueprint.xml
+Bundle-ManifestVersion: 2
+Bundle-Name: provider
+Bundle-SymbolicName: org.opennms.yang.provider
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.opennms.yang.osgi.provider;uses:="org.opennms.yang.o
+ sgi.common";version="1.0.0.SNAPSHOT"
+Export-Service: org.opennms.yang.osgi.common.BookingService;osgi.service
+ .blueprint.compname=bookingService
+Import-Package: org.opennms.yang.osgi.common;version="[1.0,2)",org.osgi.
+ service.blueprint;version="[1.0.0,2.0.0)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+Tool: Bnd-5.1.1.202006162103

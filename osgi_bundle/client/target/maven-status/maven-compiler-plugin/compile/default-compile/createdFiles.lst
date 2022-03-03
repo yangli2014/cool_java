@@ -1,0 +1,5 @@
+org/opennms/yang/osgi/client/ClientService.class
+org/opennms/yang/osgi/client/package-info.class
+org/opennms/yang/osgi/client/ClientServiceImpl.class
+org/opennms/yang/osgi/client/Display.class
+org/opennms/yang/osgi/client/Display$BookingDisplayThread.class

@@ -1,0 +1,3 @@
+org/opennms/yang/osgi/common/package-info.class
+org/opennms/yang/osgi/common/Booking.class
+org/opennms/yang/osgi/common/BookingService.class

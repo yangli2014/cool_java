@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1638393770805
+Build-Jdk: 11.0.13
+Built-By: yang
+Bundle-ManifestVersion: 2
+Bundle-Name: common
+Bundle-SymbolicName: org.opennms.yang.common
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.opennms.yang.osgi.common;version="1.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+Tool: Bnd-5.1.1.202006162103
